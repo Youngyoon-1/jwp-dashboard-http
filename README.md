@@ -8,7 +8,7 @@
 
 1. Coyote(HTTP Component)
     1. 톰캣에 TCP를 통한 프로토콜 지원
-    2. Coyote는 HTTP 1.1 및 2 프로토콜을 웹 서버로 지원하는 Tomcat용 커넥터 구성 요소입니다. 이를 통해 명목상 Java 서블릿 또는 JSP 컨테이너인 Catalina가 로컬 파일을 HTTP 문서로 제공하는 일반 웹 서버로도 작동할 수 있습니다. [[5]](https://en.wikipedia.org/wiki/Apache_Tomcat#cite_note-5) Coyote는 특정 [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) 포트에서 서버로 들어오는 연결을 수신하고 Tomcat 엔진에 요청을 전달하여 요청을 처리하고 요청하는 클라이언트에 응답을 보냅니다.
+    2. Coyote는 HTTP 1.1 및 2 프로토콜을 웹 서버로 지원하는 Tomcat용 커넥터 구성 요소입니다. 이를 통해 명목상 Java 서블릿 또는 JSP 컨테이너인 Catalina가 로컬 파일을 HTTP 문서로 제공하는 일반 웹 서버로도 작동할 수 있습니다. Coyote는 특정 포트에서 서버로 들어오는 연결을 수신하고 Tomcat 엔진에 요청을 전달하여 요청을 처리하고 요청하는 클라이언트에 응답을 보냅니다.
     3. Coyote는 HTTP 1.1 및 2 프로토콜을 웹 서버로 지원하는 Tomcat용 커넥터 구성 요소입니다.
 2. Catalina(Servlet Container)
     1. Java Servlet을 호스팅하는 환경
